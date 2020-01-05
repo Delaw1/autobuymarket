@@ -1,5 +1,5 @@
 const express = require('express')
-require('./db/mongoose')
+// require('./db/mongoose')
 const indexRouter = require('./router')
 const path = require('path')
 const hbs = require('hbs')
