@@ -90,6 +90,10 @@ router.get('/newsletter', (req, res) => {
   res.render('newsletter')
 })
 
+router.get('*', (req, res) => {
+  res.render('404error')
+})
+
 
 router.get("/scrap", async function(req, res, next) {
     const url = 'https://www.copart.com'
